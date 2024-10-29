@@ -2,55 +2,6 @@ body{
     background-image: url("../Photos/Background.png");
 }
 
-.content {
-  padding: 20px;
-}
-
-.content h2 {
-  font-size: 22px;
-  color: #fff;
-  letter-spacing: 0.1em;
-}
-
-.box {
-  position: relative;
-  background-color: #060c21;
-  width: 300px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box:before {
-  content: '';
-  position: absolute;
-  background-color: #fff;
-  top: -2px;
-  right: -2px;
-  left: -2px;
-  bottom: -2px;
-  z-index: -1;
-}
-
-.box:after{
-  content: '';
-  position: absolute;
-  background-color: #fff;
-  top: -2px;
-  right: -2px;
-  left: -2px;
-  bottom: -2px;
-  z-index: -2;
-  filter: blur(40px);
-}
-
-.box:after, .box:before {
-  background: linear-gradient(235deg, red, red, red);
-}
-
-
-
 .col {
     border: 1px solid black;
     text-align: center;
