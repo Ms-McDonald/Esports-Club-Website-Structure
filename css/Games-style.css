@@ -1,7 +1,3 @@
-body {
-  background-image: url("../Photos/Background.png");
-}
-
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -30,6 +26,7 @@ body {
 .title-font {
   font-family: "Orbitron", sans-serif;
   font-weight: bold;
+  margin-bottom: 2%;
 }
 
 .paragraph-font {
@@ -52,9 +49,16 @@ body {
   color: #710000;
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url("../Photos/Background.png");
+  background-size: auto;
+}
+
 .esports-logo {
-  width: 612px;
-  height: 650px;
+  width: 212px;
+  height: 250px;
 }
 
 .nav-cont {
@@ -243,5 +247,14 @@ font-weight: 700;
   width: 100%;
 }
 
+.card {
+  border: none;
+}
 
+.games-1 {
 
+}
+
+.games-2 {
+  
+}
