@@ -1,0 +1,204 @@
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B90000;
+  border-radius: 3.5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #710000;
+}
+
+.default-text-box {
+  border: #E7D9D9 solid 2px;
+  border-radius: 62px;
+  background-color: #050505;
+  text-align: center;
+}
+
+.title-font {
+  font-family: "Orbitron", sans-serif;
+}
+
+.paragraph-font {
+  font-family: "Oxanium", sans-serif;
+}
+
+.background-textbox-color {
+  background-color: #050505;
+}
+
+.text-color-1 {
+  color: #B90000;
+}
+
+.text-color-2 {
+  color: #E7D9D9;
+}
+
+.accent-color {
+  color: #710000;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #050505;
+}
+
+.topnav {
+  overflow: hidden;
+  height: 15%;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  top: 0;
+}
+
+.topnav a {
+  float: left;
+  color: #CFFCFF;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 20px;
+  display: block;
+}
+
+.skeuomorphic-buttons-navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; 
+  font-family: 'Montserrat', sans-serif;
+  height: 75px;
+  outline-offset: 1px;
+  margin-left: 10px;
+}
+
+.skeuomorphic-buttons-navbar a.skeuomorphic-buttons {
+  display: flex;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 25px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.skeuomorphic-buttons {
+  cursor: pointer;
+  color: #CFFCFF;
+  font-weight: 700;
+  transition: color 1s ease-out;
+}
+
+.skeuomorphic-buttons:hover {
+  cursor: pointer;
+  text-decoration: underline #2A3034;
+  color: #3EBAC0;
+}
+
+.container-xl {
+border-radius: 20px;
+margin-top: 10px;
+background-color: #ffffff;
+border: #2a3a45 ridge 10px;
+}
+
+.top-row {
+margin-top: 25px;
+margin-bottom: 80px;
+background-color: #000505;
+font-size: 70px;
+font-weight: 700;
+font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 768px) {
+  #navbar-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  #logo {
+    margin-top: 10px;
+  }
+}
+
+.content-scrollbar-overflow-container {
+  overflow-y: scroll;
+  overflow: auto;
+  width: 80%;
+}
+
+.navbar-toggler {
+  background-color: #3EBAC0;
+}
+
+.title {
+  margin: 25px;
+  text-decoration: underline #3EBAC0;
+  text-underline-offset: 10px;
+}
+
+.navbar-toggler-icon {
+  width: 25px;
+  height: 35px;
+
+}
+
+@media (min-width: 950px) {
+
+  .navbar-nav {
+    width: max(1600px, calc(70% + 100px));
+    margin-left: 10%;
+  }
+
+  .heading-size-change {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbar-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  #logo {
+    margin-bottom: 10px;
+  }
+  .skeuomorphic-buttons-navbar a.skeuomorphic-buttons {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+}
+
+.homepage-position {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#Homepage {
+  background-color: #000505;
+}
