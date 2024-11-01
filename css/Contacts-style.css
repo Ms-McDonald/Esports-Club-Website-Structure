@@ -16,7 +16,7 @@
   }
   
   .default-text-box {
-    border: #B90000 solid 2px;
+    border: #E7D9D9 solid 2px;
     border-radius: 10px;
     background-color: #050505;
     text-align: center;
@@ -41,7 +41,7 @@
   }
   
   .text-color-2 {
-    color: #E7D9D9;
+    color: rgb(255, 255, 255);
   }
   
   .accent-color {
@@ -245,3 +245,16 @@
     z-index: 10;
     width: 100%;
   }
+
+  .default-text-box {
+    border: #E7D9D9 solid 2px;
+    border-radius: 10px;
+    background-color: #050505;
+    text-align: center;
+    width: 180px;
+  }
+
+  .class-link{
+    text-decoration: none;
+  }
+  
