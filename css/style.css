@@ -53,8 +53,8 @@ body {
 }
 
 .esports-logo {
-  width: 612px;
-  height: 650px;
+  width: 512px;
+  height: 550px;
 }
 
 .nav-cont {
@@ -235,7 +235,6 @@ font-weight: 700;
   }
 }
 
-
 .homepage-position {
   position: absolute;
   padding-top: 80px;
@@ -243,5 +242,12 @@ font-weight: 700;
   width: 100%;
 }
 
+.border-left {
+  background-color:#B90000;
+  width: 1px;
+}
 
-
+.border-right {
+  background-color:#B90000;
+  width: 1px;
+}

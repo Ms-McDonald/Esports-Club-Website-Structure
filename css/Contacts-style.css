@@ -258,3 +258,16 @@
     text-decoration: none;
   }
   
+
+  a {
+    text-decoration:none;
+ }
+
+ .default-text-img{
+  border: #E7D9D9 solid 2px;
+  border-radius: 10px;
+  background-color: #050505;
+  text-align: center;
+  width: 480px;
+  height: 400;
+ }
